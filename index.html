@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jeevana Senthilkumar is a Power BI Developer and Data Analyst specializing in Power BI dashboards, SQL, Python, Power Query, KPI reporting, data visualization, data quality, and business analytics.">
+<meta name="author" content="Jeevana Senthilkumar">
+<meta name="keywords" content="Jeevana Senthilkumar, Power BI Developer, Data Analyst, Power BI, SQL, Python, Power Query, Business Intelligence, Data Analytics, KPI Reporting, Dashboard Development">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#0A0E17">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://jeevana-senthilkumar.netlify.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jeevana-senthilkumar.netlify.app/">
+<meta property="og:title" content="Jeevana Senthilkumar | Power BI Developer &amp; Data Analyst">
+<meta property="og:description" content="Power BI Developer and Data Analyst specializing in dashboards, SQL, Python, Power Query, KPI reporting, data visualization, and business analytics.">
+<meta property="og:site_name" content="Jeevana Senthilkumar Portfolio">
+<meta property="og:locale" content="en_IN">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jeevana Senthilkumar | Power BI Developer &amp; Data Analyst">
+<meta name="twitter:description" content="Power BI Developer and Data Analyst specializing in Power BI, SQL, Python, dashboards, KPI reporting, and business analytics.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jeevana Senthilkumar",
+  "url": "https://jeevana-senthilkumar.netlify.app/",
+  "jobTitle": "Power BI Developer & Data Analyst",
+  "description": "Power BI Developer and Data Analyst specializing in Power BI dashboards, SQL, Python, Power Query, KPI reporting, data visualization, data quality, and business analytics.",
+  "sameAs": [
+    "https://www.linkedin.com/in/jeevanasenthilkumar/",
+    "https://github.com/JeevanaSenthilkumar/"
+  ],
+  "knowsAbout": [
+    "Power BI", "Power BI Service", "SQL", "Python", "Power Query",
+    "Data Analysis", "Data Visualization", "Business Intelligence",
+    "KPI Reporting", "Data Quality", "ETL", "Statistical Analysis",
+    "Root Cause Analysis"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Jeevana Senthilkumar Portfolio",
+  "url": "https://jeevana-senthilkumar.netlify.app/",
+  "description": "Professional portfolio of Jeevana Senthilkumar, Power BI Developer and Data Analyst."
+}
+</script>
+
+<title>Jeevana Senthilkumar | Power BI Developer &amp; Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0E17;
+    --panel:#121826;
+    --panel-2:#1A2233;
+    --text:#EAEFF7;
+    --text-dim:#8E9AB3;
+    --teal:#4FD9C4;
+    --amber:#F6B042;
+    --violet:#9C8CF0;
+    --line:rgba(234,239,247,0.09);
+    --line-strong:rgba(234,239,247,0.16);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--teal);color:#0A0E17;}
+
+  h1,h2,h3,.display{font-family:'Space Grotesk',sans-serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+
+  a{color:inherit;text-decoration:none;}
+
+  /* background grid texture */
+  .grid-bg{
+    position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:64px 64px;
+    mask-image:radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 85%);
+    opacity:0.5;
+  }
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 40px;position:relative;z-index:1;}
+  @media(max-width:640px){.wrap{padding:0 22px;}}
+
+  /* ---------- NAV ---------- */
+  nav{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:22px 40px;
+    background:rgba(10,14,23,0.7);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  @media(max-width:640px){nav{padding:18px 22px;}}
+  .brand{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.08em;color:var(--text-dim);display:flex;align-items:center;gap:8px;}
+  .brand .dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px var(--teal);animation:pulse 2.4s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.35;}}
+  .navlinks{display:flex;gap:32px;font-size:13px;color:var(--text-dim);}
+  .navlinks a:hover{color:var(--text);}
+  @media(max-width:760px){.navlinks{display:none;}}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    min-height:100vh;
+    display:flex;align-items:center;
+    padding:140px 0 80px;
+    position:relative;
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.05fr 0.95fr;gap:64px;align-items:center;
+  }
+  @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:56px;}}
+
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.14em;
+    color:var(--teal);text-transform:uppercase;margin-bottom:20px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .eyebrow::before{content:'';width:22px;height:1px;background:var(--teal);}
+
+  .hero h1{
+    font-size:clamp(38px,5.4vw,64px);
+    font-weight:600;line-height:1.05;letter-spacing:-0.01em;
+    margin-bottom:18px;
+  }
+  .hero h1 span{color:var(--text-dim);font-weight:400;}
+  .hero .role{
+    font-family:'IBM Plex Mono',monospace;font-size:15px;color:var(--amber);
+    margin-bottom:22px;letter-spacing:0.01em;
+  }
+  .hero p.lede{
+    font-size:16.5px;line-height:1.7;color:var(--text-dim);max-width:480px;margin-bottom:36px;
+  }
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px;}
+  .btn{
+    font-family:'IBM Plex Mono',monospace;font-size:13px;padding:13px 22px;border-radius:3px;
+    border:1px solid var(--line-strong);transition:all .2s ease;letter-spacing:0.02em;
+  }
+  .btn-primary{background:var(--teal);color:#0A0E17;border-color:var(--teal);font-weight:600;}
+  .btn-primary:hover{background:#63e6d3;transform:translateY(-1px);}
+  .btn-ghost{color:var(--text);}
+  .btn-ghost:hover{border-color:var(--text-dim);background:var(--panel);}
+
+  .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);}
+  @media(max-width:640px){.stat-row{grid-template-columns:repeat(2,1fr);}}
+  .stat{padding:20px 18px 0 0;border-right:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat .num{font-family:'Space Grotesk',sans-serif;font-size:28px;font-weight:600;color:var(--text);}
+  .stat .num .accent{color:var(--teal);}
+  .stat .label{font-size:11.5px;color:var(--text-dim);margin-top:4px;line-height:1.4;}
+
+  /* ---------- DASHBOARD MOCK (signature element) ---------- */
+  .dash{
+    background:linear-gradient(160deg,var(--panel),var(--panel-2));
+    border:1px solid var(--line-strong);
+    border-radius:10px;
+    padding:22px;
+    box-shadow:0 30px 80px -20px rgba(0,0,0,0.6);
+    position:relative;
+  }
+  .dash-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+  .dash-title{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--text-dim);letter-spacing:0.04em;}
+  .live-pill{
+    display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+    color:var(--teal);border:1px solid rgba(79,217,196,0.35);padding:4px 9px;border-radius:20px;background:rgba(79,217,196,0.06);
+  }
+  .live-pill .d{width:6px;height:6px;border-radius:50%;background:var(--teal);animation:pulse 1.8s ease-in-out infinite;}
+
+  .dash-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+  .kpi-card{background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:6px;padding:12px 12px;}
+  .kpi-card .k-label{font-size:10px;color:var(--text-dim);font-family:'IBM Plex Mono',monospace;margin-bottom:6px;}
+  .kpi-card .k-val{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:600;}
+  .kpi-card .k-val.teal{color:var(--teal);}
+  .kpi-card .k-val.amber{color:var(--amber);}
+  .kpi-card .k-val.violet{color:var(--violet);}
+
+  .chart-panel{background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:6px;padding:14px;margin-bottom:10px;}
+  .chart-panel .cp-label{font-size:10px;color:var(--text-dim);font-family:'IBM Plex Mono',monospace;margin-bottom:8px;display:flex;justify-content:space-between;}
+  .line-path{fill:none;stroke:var(--teal);stroke-width:2;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 2.4s ease forwards 0.5s;}
+  .line-path-2{fill:none;stroke:var(--violet);stroke-width:2;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 2.4s ease forwards 0.9s;opacity:0.7;}
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  .area-fill{opacity:0;animation:fadein 1s ease forwards 1.6s;}
+  @keyframes fadein{to{opacity:0.12;}}
+
+  .bars{display:flex;align-items:flex-end;gap:6px;height:60px;}
+  .bar{flex:1;background:linear-gradient(180deg,var(--amber),rgba(246,176,66,0.25));border-radius:2px 2px 0 0;height:0;animation:grow 1.2s cubic-bezier(.2,.8,.3,1) forwards;}
+  @keyframes grow{to{height:var(--h);}}
+
+  .dash-footer{display:flex;justify-content:space-between;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text-dim);padding-top:10px;border-top:1px solid var(--line);}
+
+  /* ---------- SECTION SHELL ---------- */
+  section{padding:110px 0;position:relative;scroll-margin-top:90px;}
+  @media(max-width:640px){section{padding:76px 0;}}
+  .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:56px;}
+  .sec-num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--teal);}
+  .sec-title{font-size:clamp(26px,3.4vw,38px);font-weight:600;}
+  .sec-sub{color:var(--text-dim);font-size:14.5px;margin-top:10px;max-width:560px;}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1;transform:translateY(0);}
+
+  /* ---------- PIPELINE / EXPERIENCE ---------- */
+  .pipeline{position:relative;padding-left:26px;}
+  .pipeline::before{
+    content:'';position:absolute;left:5px;top:8px;bottom:8px;width:1px;
+    background:linear-gradient(180deg,var(--teal),var(--violet) 50%,var(--amber));
+    opacity:0.4;
+  }
+  .p-node{position:relative;padding-bottom:56px;}
+  .p-node:last-child{padding-bottom:0;}
+  .p-node::before{
+    content:'';position:absolute;left:-26px;top:6px;width:11px;height:11px;border-radius:50%;
+    background:var(--bg);border:2px solid var(--teal);
+  }
+  .p-node.n2::before{border-color:var(--violet);}
+  .p-node.n3::before{border-color:var(--amber);}
+
+  .p-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:26px 28px;}
+  .p-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:14px;}
+  .p-role{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:600;}
+  .p-company{color:var(--text-dim);font-size:14px;margin-top:2px;}
+  .p-date{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--text-dim);white-space:nowrap;border:1px solid var(--line-strong);padding:4px 10px;border-radius:20px;}
+  .p-bullets{list-style:none;margin:14px 0 0;}
+  .p-bullets li{position:relative;padding-left:16px;color:var(--text-dim);font-size:14px;line-height:1.65;margin-bottom:6px;}
+  .p-bullets li::before{content:'→';position:absolute;left:0;color:var(--teal);font-size:12px;top:2px;}
+  .p-throughput{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;}
+  .chip-stat{font-family:'IBM Plex Mono',monospace;font-size:11.5px;background:rgba(255,255,255,0.03);border:1px solid var(--line);padding:6px 11px;border-radius:20px;color:var(--teal);}
+  .p-node.n2 .chip-stat{color:var(--violet);}
+  .p-node.n3 .chip-stat{color:var(--amber);}
+
+  /* ---------- PROJECT ---------- */
+  .project-card{
+    background:linear-gradient(160deg,var(--panel),var(--panel-2));
+    border:1px solid var(--line-strong);border-radius:10px;padding:36px;
+    display:grid;grid-template-columns:1.2fr 0.8fr;gap:32px;
+  }
+  @media(max-width:800px){.project-card{grid-template-columns:1fr;}}
+  .project-title{font-size:23px;font-weight:600;margin-bottom:14px;font-family:'Space Grotesk',sans-serif;}
+  .project-card ul{list-style:none;}
+  .project-card ul li{position:relative;padding-left:18px;color:var(--text-dim);font-size:14.5px;line-height:1.7;margin-bottom:8px;}
+  .project-card ul li::before{content:'▸';position:absolute;left:0;color:var(--teal);}
+  .tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+  .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;border:1px solid var(--line-strong);padding:5px 10px;border-radius:4px;color:var(--text-dim);}
+  .mini-viz{border:1px solid var(--line);border-radius:8px;padding:18px;background:rgba(255,255,255,0.02);display:flex;flex-direction:column;justify-content:center;}
+  .mini-bars{display:flex;align-items:flex-end;gap:8px;height:110px;margin-bottom:10px;}
+  .mini-bars .b{flex:1;border-radius:3px 3px 0 0;height:0;animation:grow 1.4s cubic-bezier(.2,.8,.3,1) forwards;}
+
+  /* ---------- SKILLS SCHEMA ---------- */
+  .schema-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+  @media(max-width:800px){.schema-grid{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:520px){.schema-grid{grid-template-columns:1fr;}}
+  .schema-cell{background:var(--panel);padding:24px 22px;}
+  .schema-name{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:0.04em;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+  .schema-name::before{content:'';width:5px;height:5px;background:var(--teal);border-radius:1px;}
+  .schema-tags{display:flex;flex-wrap:wrap;gap:7px;}
+  .schema-tags span{font-size:12.5px;color:var(--text-dim);background:rgba(255,255,255,0.03);border:1px solid var(--line);padding:5px 9px;border-radius:4px;}
+
+  /* ---------- EDU / CERTS / ACHIEVEMENTS ---------- */
+  .three-col{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;}
+  @media(max-width:640px){.three-col{grid-template-columns:1fr;}}
+  .info-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:26px;}
+  .info-card .ic-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber);margin-bottom:12px;letter-spacing:0.05em;}
+  .info-card h4{font-size:16.5px;font-weight:600;margin-bottom:6px;font-family:'Space Grotesk',sans-serif;}
+  .info-card p{font-size:13px;color:var(--text-dim);line-height:1.6;}
+  .cgpa{font-family:'IBM Plex Mono',monospace;color:var(--teal);}
+
+  /* ---------- FOOTER / CONTACT ---------- */
+  footer{padding:100px 0 60px;border-top:1px solid var(--line);}
+  .contact-head{font-size:clamp(30px,5vw,52px);font-weight:600;font-family:'Space Grotesk',sans-serif;margin-bottom:20px;max-width:640px;line-height:1.1;}
+  .contact-links{display:flex;flex-wrap:wrap;gap:14px;margin:34px 0 70px;}
+  .contact-link{
+    display:flex;align-items:center;gap:10px;
+    font-family:'IBM Plex Mono',monospace;font-size:13.5px;
+    border:1px solid var(--line-strong);padding:13px 20px;border-radius:6px;
+    transition:all .2s ease;
+  }
+  .contact-link:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px);}
+  .foot-bottom{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--text-dim);flex-wrap:wrap;gap:10px;font-family:'IBM Plex Mono',monospace;}
+
+  @media(prefers-reduced-motion:reduce){
+    *{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;}
+  }
+
+  .skip-link{
+    position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;
+  }
+  .skip-link:focus{
+    left:16px;top:16px;width:auto;height:auto;padding:10px 14px;z-index:100;
+    background:var(--teal);color:#0A0E17;border-radius:4px;font-weight:600;
+  }
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "Jeevana Senthilkumar — Power BI Developer & Data Analyst",
+  "url": "https://jeevana-senthilkumar.netlify.app/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Jeevana Senthilkumar",
+    "url": "https://jeevana-senthilkumar.netlify.app/",
+    "jobTitle": "Power BI Developer & Data Analyst",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeevanasenthilkumar/",
+      "https://github.com/JeevanaSenthilkumar/"
+    ]
+  }
+}
+</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header>
+<nav aria-label="Primary navigation">
+  <div class="brand"><span class="dot"></span>JEEVANA.S</div>
+  <div class="navlinks">
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="btn btn-ghost" style="font-size:12px;padding:9px 16px;"><a href="mailto:Jeevana8438@gmail.com" data-mail="Jeevana8438@gmail.com">Say hello →</a></div>
+</nav>
+</header>
+
+<!-- HERO -->
+<main id="main-content">
+<div class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Portfolio — 2026</div>
+      <h1>Jeevana<br><span>Senthilkumar</span></h1>
+      <p class="role">Power BI Developer &nbsp;/&nbsp; Data Analyst</p>
+      <p class="lede">Power BI Developer and Data Analyst turning raw, messy data into dashboards people actually trust — 2.5+ years building BI systems, SQL datasets and KPI reporting that hold up under real business decisions.</p>
+      <div class="cta-row">
+        <a href="#experience" data-target="experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" data-target="contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><div class="num"><span class="accent" data-count="2.5" data-suffix="+">2.5+</span></div><div class="label">Years in BI &amp; Analytics</div></div>
+        <div class="stat"><div class="num"><span class="accent" data-count="1" data-suffix="M+">1M+</span></div><div class="label">Records analyzed weekly</div></div>
+        <div class="stat"><div class="num"><span class="accent" data-count="20" data-suffix="%">20%</span></div><div class="label">Manual reporting effort cut</div></div>
+        <div class="stat"><div class="num"><span class="accent" data-count="9.2" data-suffix="">9.2</span></div><div class="label">CGPA · B.Sc. Data Science</div></div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE DASHBOARD MOCK -->
+    <div class="dash">
+      <div class="dash-header">
+        <div class="dash-title">BUSINESS_PERFORMANCE.PBIX</div>
+        <div class="live-pill"><span class="d"></span>LIVE</div>
+      </div>
+      <div class="dash-kpis">
+        <div class="kpi-card"><div class="k-label">REVENUE KPI</div><div class="k-val teal">▲ 14.2%</div></div>
+        <div class="kpi-card"><div class="k-label">DATA QUALITY</div><div class="k-val amber">98.4%</div></div>
+        <div class="kpi-card"><div class="k-label">RECORDS/WK</div><div class="k-val violet">1.02M</div></div>
+      </div>
+      <div class="chart-panel">
+        <div class="cp-label"><span>TREND — QTR OVERVIEW</span><span>Q1–Q4</span></div>
+        <svg viewBox="0 0 340 90" width="100%" height="90" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#4FD9C4"/>
+              <stop offset="100%" stop-color="#4FD9C4" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="area-fill" d="M0,70 L28,58 L56,62 L84,40 L112,48 L140,28 L168,34 L196,18 L224,26 L252,14 L280,20 L310,8 L340,12 L340,90 L0,90 Z" fill="url(#areaGrad)"/>
+          <path class="line-path" d="M0,70 L28,58 L56,62 L84,40 L112,48 L140,28 L168,34 L196,18 L224,26 L252,14 L280,20 L310,8 L340,12"/>
+          <path class="line-path-2" d="M0,80 L28,76 L56,70 L84,72 L112,60 L140,64 L168,50 L196,54 L224,44 L252,48 L280,38 L310,42 L340,34"/>
+        </svg>
+      </div>
+      <div class="chart-panel">
+        <div class="cp-label"><span>THROUGHPUT BY REGION</span><span>ETL VALIDATED</span></div>
+        <div class="bars">
+          <div class="bar" style="--h:38%;animation-delay:.7s"></div>
+          <div class="bar" style="--h:62%;animation-delay:.78s"></div>
+          <div class="bar" style="--h:44%;animation-delay:.86s"></div>
+          <div class="bar" style="--h:80%;animation-delay:.94s"></div>
+          <div class="bar" style="--h:56%;animation-delay:1.02s"></div>
+          <div class="bar" style="--h:70%;animation-delay:1.1s"></div>
+          <div class="bar" style="--h:48%;animation-delay:1.18s"></div>
+          <div class="bar" style="--h:90%;animation-delay:1.26s"></div>
+        </div>
+      </div>
+      <div class="dash-footer">
+        <span>SOURCE: SQL · POWER QUERY</span>
+        <span>REFRESHED JUST NOW</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<section id="experience" aria-labelledby="experience-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <div>
+        <h2 id="experience-title" class="sec-title">Experience Pipeline</h2>
+        <p class="sec-sub">Three roles, one continuous thread — moving from raw data validation toward full dashboard ownership.</p>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      <div class="p-node n1 reveal">
+        <article class="p-card">
+          <div class="p-top">
+            <div><h3 class="p-role">Machine Learning Data Associate</h3><div class="p-company">Adecco — Client: Amazon</div></div>
+            <div class="p-date">NOV 2023 – DEC 2023</div>
+          </div>
+          <ul class="p-bullets">
+            <li>Processed and validated 800K+ product records weekly, ensuring high-quality datasets for ML models, analytics, and product categorization.</li>
+            <li>Performed data cleansing, standardization, and transformation to improve data quality and readiness for downstream processes.</li>
+          </ul>
+          <div class="p-throughput"><span class="chip-stat">800K+ records / week</span><span class="chip-stat">Data quality foundation</span></div>
+        </article>
+      </div>
+
+      <div class="p-node n2 reveal">
+        <article class="p-card">
+          <div class="p-top">
+            <div><div class="p-role">Machine Learning Data Associate</div><div class="p-company">Amazon</div></div>
+            <div class="p-date">FEB 2024 – SEP 2025</div>
+          </div>
+          <ul class="p-bullets">
+            <li>Analyzed 1M+ records weekly using SQL, Power BI, Python and Excel to support business intelligence reporting.</li>
+            <li>Designed and maintained interactive Power BI dashboards and KPI reports for performance monitoring.</li>
+            <li>Automated reporting workflows using Power BI and Excel, reducing manual effort by 20%.</li>
+            <li>Conducted data quality assessments and root cause analysis to improve reporting reliability.</li>
+          </ul>
+          <div class="p-throughput"><span class="chip-stat">1M+ records / week</span><span class="chip-stat">-20% manual effort</span><span class="chip-stat">Stakeholder reporting</span></div>
+        </article>
+      </div>
+
+      <div class="p-node n3 reveal">
+        <article class="p-card">
+          <div class="p-top">
+            <div><h3 class="p-role">Analyst</h3><div class="p-company">Cognizant Technology Solutions</div></div>
+            <div class="p-date">JAN 2026 – PRESENT</div>
+          </div>
+          <ul class="p-bullets">
+            <li>Developed and maintained Power BI dashboards and analytical reports for business stakeholders.</li>
+            <li>Created SQL-based datasets and performed data transformations for reporting and visualization needs.</li>
+            <li>Improved dashboard performance through optimized queries and data models; automated recurring reporting.</li>
+            <li>Generated ad-hoc reports, KPI tracking dashboards, and trend analysis for operational objectives.</li>
+          </ul>
+          <div class="p-throughput"><span class="chip-stat">End-to-end dashboard ownership</span><span class="chip-stat">Cross-functional delivery</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div>
+        <h2 id="projects-title" class="sec-title">Featured Project</h2>
+        <p class="sec-sub">A closer look at a dashboard built end-to-end, from raw SQL to stakeholder-ready reporting.</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div>
+        <h3 class="project-title">Power BI Business Performance Dashboard</h3>
+        <ul>
+          <li>Developed interactive Power BI dashboards using SQL-based datasets to monitor KPIs and operational metrics.</li>
+          <li>Built data transformation workflows in Power Query for cleansing and preparation.</li>
+          <li>Designed visual reports to surface trends, performance insights, and operational bottlenecks.</li>
+          <li>Partnered with stakeholders to gather requirements and ship reporting enhancements.</li>
+          <li>Improved reporting efficiency through dashboard automation and standardized business metrics.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">Power Query</span><span class="tag">KPI Reporting</span><span class="tag">Data Visualization</span>
+        </div>
+      </div>
+      <div class="mini-viz">
+        <div class="mini-bars">
+          <div class="b" style="--h:40%;background:linear-gradient(180deg,#4FD9C4,rgba(79,217,196,.15));animation-delay:.1s"></div>
+          <div class="b" style="--h:65%;background:linear-gradient(180deg,#4FD9C4,rgba(79,217,196,.15));animation-delay:.18s"></div>
+          <div class="b" style="--h:52%;background:linear-gradient(180deg,#9C8CF0,rgba(156,140,240,.15));animation-delay:.26s"></div>
+          <div class="b" style="--h:88%;background:linear-gradient(180deg,#F6B042,rgba(246,176,66,.15));animation-delay:.34s"></div>
+          <div class="b" style="--h:70%;background:linear-gradient(180deg,#4FD9C4,rgba(79,217,196,.15));animation-delay:.42s"></div>
+          <div class="b" style="--h:58%;background:linear-gradient(180deg,#9C8CF0,rgba(156,140,240,.15));animation-delay:.5s"></div>
+        </div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--text-dim);text-align:center;">OPERATIONAL KPI BREAKDOWN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <div>
+        <h2 id="skills-title" class="sec-title">Skill Schema</h2>
+        <p class="sec-sub">Laid out the way I'd design a data model — grouped by table, not by buzzword.</p>
+      </div>
+    </div>
+
+    <div class="schema-grid reveal">
+      <div class="schema-cell">
+        <div class="schema-name">programming</div>
+        <div class="schema-tags"><span>Python</span><span>SQL</span></div>
+      </div>
+      <div class="schema-cell">
+        <div class="schema-name">bi_&amp;_reporting</div>
+        <div class="schema-tags"><span>Power BI</span><span>Power BI Service</span><span>Dashboard Development</span><span>Data Visualization</span><span>KPI Reporting</span><span>Interactive Reports</span></div>
+      </div>
+      <div class="schema-cell">
+        <div class="schema-name">analytics</div>
+        <div class="schema-tags"><span>EDA</span><span>Statistical Analysis</span><span>Root Cause Analysis</span><span>Trend Analysis</span></div>
+      </div>
+      <div class="schema-cell">
+        <div class="schema-name">data_engineering</div>
+        <div class="schema-tags"><span>Data Processing</span><span>Validation</span><span>Integration</span><span>Transformation</span><span>Data Quality</span><span>ETL Concepts</span><span>Cleansing</span><span>Governance</span><span>Pipeline Optimization</span></div>
+      </div>
+      <div class="schema-cell">
+        <div class="schema-name">tools_&amp;_platforms</div>
+        <div class="schema-tags"><span>Power BI</span><span>Excel</span><span>Power Query</span><span>Matplotlib</span><span>Google Sheets</span><span>GitHub</span><span>VS Code</span><span>Jupyter</span><span>Amazon SageMaker</span></div>
+      </div>
+      <div class="schema-cell">
+        <div class="schema-name">core_competencies</div>
+        <div class="schema-tags"><span>Cross-Functional Collaboration</span><span>Process Automation</span><span>Workflow Optimization</span><span>ML Data Prep</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION / CERTS / ACHIEVEMENTS -->
+<section id="education" aria-labelledby="education-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <div>
+        <h2 id="education-title" class="sec-title">Foundations</h2>
+        <p class="sec-sub">Education, certifications, and research that back the day-to-day work.</p>
+      </div>
+    </div>
+
+    <div class="three-col reveal">
+      <div class="info-card">
+        <div class="ic-eyebrow">EDUCATION</div>
+        <h4>M.Sc. Data Science</h4>
+        <p>Kalasalingam Academy of Research and Education · 2024 – 2026<br>CGPA: <span class="cgpa">8.0 / 10</span></p>
+      </div>
+      <div class="info-card">
+        <div class="ic-eyebrow">EDUCATION</div>
+        <h4>B.Sc. Data Science</h4>
+        <p>The American College · 2020 – 2023<br>CGPA: <span class="cgpa">9.2 / 10</span></p>
+      </div>
+      <div class="info-card">
+        <div class="ic-eyebrow">CERTIFICATIONS</div>
+        <h4>Certified Data Analyst</h4>
+        <p>Great Learning</p>
+        <h4 style="margin-top:14px;">Microsoft Technology Associate</h4>
+        <p>Python</p>
+      </div>
+      <div class="info-card">
+        <div class="ic-eyebrow">ACHIEVEMENTS</div>
+        <h4>Research, Presented</h4>
+        <p>Three research papers presented in Artificial Intelligence and Machine Learning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- CONTACT -->
+<footer id="contact" aria-labelledby="contact-heading">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow" data-target="contact">05 — Get in touch</div>
+      <h2 id="contact-heading" class="contact-head">Building a dashboard, or hiring for one? Let's talk data.</h2>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:Jeevana8438@gmail.com" data-mail="Jeevana8438@gmail.com">✉ Jeevana8438@gmail.com</a>
+        <a class="contact-link" href="tel:+919865279866">☎ +91 98652 79866</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/jeevanasenthilkumar/" target="_blank" rel="noopener noreferrer" aria-label="Jeevana Senthilkumar on LinkedIn">in／ LinkedIn</a>
+        <a class="contact-link" href="https://github.com/JeevanaSenthilkumar/" target="_blank" rel="noopener noreferrer" aria-label="Jeevana Senthilkumar on GitHub">⌥ GitHub</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>JEEVANA SENTHILKUMAR · ANALYST</span>
+      <span>PORTFOLIO / 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // count-up stats
+  const counters = document.querySelectorAll('[data-count]');
+  const animateCount = (el) => {
+    const target = parseFloat(el.getAttribute('data-count'));
+    const suffix = el.getAttribute('data-suffix') || '';
+    const isDecimal = target % 1 !== 0;
+    const dur = 1400;
+    const start = performance.now();
+    function tick(now){
+      const p = Math.min((now - start)/dur, 1);
+      const eased = 1 - Math.pow(1-p, 3);
+      const val = target * eased;
+      el.textContent = (isDecimal ? val.toFixed(1) : Math.round(val)) + suffix;
+      if(p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  };
+  const counterObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ animateCount(e.target); counterObserver.unobserve(e.target); }
+    });
+  }, {threshold:0.4});
+  counters.forEach(c => counterObserver.observe(c));
+
+  // scroll to section via data-target (avoids native anchor navigation issues in embedded previews)
+  document.querySelectorAll('[data-target]').forEach(el=>{
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      const target = document.getElementById(this.getAttribute('data-target'));
+      if(target){
+        const y = target.getBoundingClientRect().top + window.pageYOffset - 84;
+        window.scrollTo({top:y, behavior:'smooth'});
+      }
+    });
+  });
+
+  // open Gmail compose (new tab) instead of relying on the OS mail client
+  document.querySelectorAll('[data-mail]').forEach(el=>{
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      const addr = this.getAttribute('data-mail');
+      window.open('https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(addr), '_blank');
+    });
+  });
+
+  // reveal on scroll
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('in'); revealObserver.unobserve(e.target); }
+    });
+  }, {threshold:0.12});
+  reveals.forEach(r => revealObserver.observe(r));
+</script>
+
+</body>
+</html>
